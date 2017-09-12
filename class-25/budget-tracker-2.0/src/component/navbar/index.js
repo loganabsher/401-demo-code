@@ -10,7 +10,7 @@ class Navbar extends React.Component {
         <h1>Budget Tracker App</h1>
         <nav>
           <ul>
-            <li><Link to='/'>Dashboard</Link></li>
+            <li><Link to='/home'>Dashboard</Link></li>
             <li><Link to='/about'>About Me</Link></li>
           </ul>
         </nav>

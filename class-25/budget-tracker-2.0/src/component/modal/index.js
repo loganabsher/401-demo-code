@@ -1,4 +1,4 @@
-
+'use strict';
 
 import React from 'react';
 
@@ -10,7 +10,9 @@ class Modal extends React.Component {
         <main>
           {this.props.children}
         </main>
-      <section>
+      </section>
     )
   }
 }
+
+export default Modal;
